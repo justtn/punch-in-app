@@ -12,6 +12,7 @@
 		7B13514D21D4C14400ECBF9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B13514B21D4C14400ECBF9C /* Main.storyboard */; };
 		7B13514F21D4C14500ECBF9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B13514E21D4C14500ECBF9C /* Assets.xcassets */; };
 		7B13515221D4C14500ECBF9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B13515021D4C14500ECBF9C /* LaunchScreen.storyboard */; };
+		7B13515A21D4D36B00ECBF9C /* CheckMarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B13515921D4D36B00ECBF9C /* CheckMarkCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7B13514E21D4C14500ECBF9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B13515121D4C14500ECBF9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B13515321D4C14500ECBF9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B13515921D4D36B00ECBF9C /* CheckMarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckMarkCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				7B13514921D4C14400ECBF9C /* ViewController.swift */,
 				7B13514B21D4C14400ECBF9C /* Main.storyboard */,
 				7B13514E21D4C14500ECBF9C /* Assets.xcassets */,
+				7B13515921D4D36B00ECBF9C /* CheckMarkCell.swift */,
 				7B13515021D4C14500ECBF9C /* LaunchScreen.storyboard */,
 				7B13515321D4C14500ECBF9C /* Info.plist */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B13515A21D4D36B00ECBF9C /* CheckMarkCell.swift in Sources */,
 				7B13514A21D4C14400ECBF9C /* ViewController.swift in Sources */,
 				7B13514821D4C14400ECBF9C /* AppDelegate.swift in Sources */,
 			);
@@ -281,6 +285,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JZ6KMRMAC;
 				INFOPLIST_FILE = "punch in/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -298,6 +303,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2JZ6KMRMAC;
 				INFOPLIST_FILE = "punch in/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
